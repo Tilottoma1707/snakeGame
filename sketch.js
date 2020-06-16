@@ -34,7 +34,7 @@ function draw() {
 
 
   fill(255, 0, 100);
-  rect(food.x, food.y, scl, scl);
+  ellipse(food.x, food.y, scl, scl);
 }
 
 function keyPressed() {
